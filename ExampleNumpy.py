@@ -25,10 +25,19 @@ e= np.eye(4)
 z = np.copy(a) 
 v = a.sort()
 m  = np.append(z, 9)
-n  = np.insert(z, 9,2)
-print (n)
+# n  = np.insert(z, 9,2)
+# print (n)
 
+# Array Mathematics
+#  adding value
+aa = np.add(z,a)
+# Multily values of 2 array
+bb = np.multiply(z,a)
+# Generating array of 10 to 20
+# value total 5
+arry =  np.random.randint(10,20,5)
+# print (arry)
 
-
-# Genrerate random number 
-# make string encripted
+# Convert string to int 
+str = '100'
+print('Covert string to int: ', int(str))
