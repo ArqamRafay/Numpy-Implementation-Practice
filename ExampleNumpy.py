@@ -1,5 +1,6 @@
 import numpy as np
 
+print('Hello world')
 # Creating Array
 a = np.array([1, 2, 3])
 b = np.array([(1, 2, 3), (4, 5, 6)], dtype=int)
@@ -39,5 +40,6 @@ arry =  np.random.randint(10,20,5)
 # print (arry)
 
 # Convert string to int 
-str = '100'
-print('Covert string to int: ', int(str))
+# str = '100'
+# print('Covert string to int: ', int(str))
+
