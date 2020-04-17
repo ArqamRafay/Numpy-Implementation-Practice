@@ -30,8 +30,11 @@ m  = np.append(z, 9)
 # print (n)
 
 # Array Mathematics
-#  adding value
-aa = np.add(z,a)
+#  adding two matrix value
+ba = [[-2, 2, 3], [ 5, -2, 3], [ 9, 2, -2]]
+ab = [ [ 1, 2, -1], [ 4, -1, 3], [-1, 2, -2]]
+aba = np.add(ba,ab)
+print(aba)
 # Multily values of 2 array
 bb = np.multiply(z,a)
 # Generating array of 10 to 20
